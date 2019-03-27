@@ -1,0 +1,31 @@
+body{
+}
+#div-apresentacao{
+    background-color:#205bfe;
+    text-align: center;
+    color: #ffffff; 
+    font: normal 25px sans-serif;
+    padding-top: 1px;
+}
+#div-menu{
+    background-color: #0040f0;
+    margin-top: 150px;
+    font: normal 20px/50px sans-serif;
+}
+#div-txt{
+    background-color: #bfbfbf;
+    width: 100%;
+    height: 328px;
+    
+}
+#div-texto{
+    width: 400px;
+    height: 100p;
+    font: normal 15px sans-serif;
+    background-color: #ffffff;
+}
+.botoes{
+    background-color: #205bfe;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
