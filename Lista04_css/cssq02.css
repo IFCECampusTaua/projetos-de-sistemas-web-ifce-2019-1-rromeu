@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+ul {
+    list-style-type: none; /*usado para tirar as macacoes da lista */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  p{
+    font-size: 13px;
+    margin-top: 20px;
+  }
+#txt-topo{
+  color: #ffffff;
+  }
+.pesquisa{
+    height: 130px;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+}
+.itens1{
+  margin: 20px;
+  font-size: 25px;
+}
+.campo-pesquisa{
+    width: 500px;
+    height: 30px;
+    margin: 40px 0px 10px 350px;
+    border-radius: 5px 0px 0px 5px;
+}
+.lupa{
+    background-color: #0080ff;
+    width: 30px;
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+    /* display: inline-block; */
+    margin-bottom: -10px;
+    border-radius: 0px 5px 5px 0px;
+}
+.novo-item{
+  float: right;
+  margin: 40px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #0080ff;
+  color: #ffffff;
+  border: none;
+}
+.div-tabela{
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  border-collapse: collapse;
+}
+.cabecalho{
+  font-size: 18px;
+  padding: 10px;
+  width: 250px;
+  text-align: left;
+}
+.impar{
+  border-top: solid 1px #999999;
+  background-color: #e6e6e6;
+  height: 25px;
+}
+.par{
+  border-top: solid 1px #999999;
+  height: 25px;
+}
+.btn-visualizar{
+  border: none;
+  background-color: #339933;
+  font-size: 15px;
+  color: #ffffff;
+  width: 70px;
+  height: 23px;
+  border-radius: 3px;
+}
+.btn-editar{
+  border: none;
+  background-color: #ff6600;
+  font-size: 15px;
+  color: #ffffff;
+  width: 55px;
+  height: 23px;
+  border-radius: 3px;
+}
+.btn-excluir{
+  border: none;
+  background-color: #ff1a1a;
+  font-size: 15px;
+  color: #ffffff;
+  height: 23px;
+  width: 55px;
+  border-radius: 3px;
+}
